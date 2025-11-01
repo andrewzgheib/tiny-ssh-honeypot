@@ -1,6 +1,6 @@
 # Tiny SSH Honeypot
 
-A tiny SSH honeypot built with Paramiko. This honeypot logs credentials and commands to analyze attacker behavior and returns fake responses safely without executing anything.
+A tiny SSH honeypot built with [Paramiko](https://www.paramiko.org/). This honeypot logs credentials and commands to analyze attacker behavior and returns fake responses safely without executing anything.
 
 ## Features
 
@@ -19,11 +19,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Connect using an SSH client to the honeypot server (default port 2222) with the fake credentials defined in `variables.py`.
+Connect using an SSH client to the honeypot server (default port 2222) with the fake credentials defined in [variables.py](https://github.com/andrewzgheib/tiny-ssh-honeypot/blob/main/src/variables.py).
 
 ## Configuration
 
-Edit `variables.py` to customize the honeypot's behavior:
+Edit [variables.py](https://github.com/andrewzgheib/tiny-ssh-honeypot/blob/main/src/variables.py) to customize the honeypot's behavior:
 
 - `HOST`: The hostname or IP address to bind the honeypot server.
 - `PORT`: The port to listen on (default is 2222).
