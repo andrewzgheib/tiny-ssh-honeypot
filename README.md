@@ -26,7 +26,7 @@ Connect using an SSH client to the honeypot server (default port 2222) with the 
 Edit [variables.py](https://github.com/andrewzgheib/tiny-ssh-honeypot/blob/main/src/variables.py) to customize the honeypot's behavior:
 
 - `HOST`: The hostname or IP address to bind the honeypot server.
-- `PORT`: The port to listen on (default is 2222).
+- `PORT`: The port to listen on.
 - `MAX_CONNECTIONS`: The maximum number of concurrent connections.
 - `RSA_KEY_BITS`: The size of the RSA key to generate for the SSH server.
 - `FAKE_USERNAME`: The username to use for fake authentication.
